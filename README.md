@@ -13,6 +13,14 @@ This project analyzes retail transaction data to uncover insights into sales per
 - Python (Pandas, NumPy)
 - PostgreSQL
 - Power BI
+- 
+## 📂 Dataset
+
+The dataset used in this project is from the UCI Machine Learning Repository:
+
+🔗 (https://archive.ics.uci.edu/dataset/352/online+retail)
+
+Due to file size limitations, the dataset is not included in this repository.
 
 ## 📊 Dashboard Preview
 ![Dashboard](images/dashboard.png
@@ -29,10 +37,7 @@ This project analyzes retail transaction data to uncover insights into sales per
 - Target high-value customers
 - Expand into underperforming regions
 
-## 📂 Project Structure
-- `data/` → cleaned dataset
-- `notebooks/` → Python data cleaning
-- `sql/` → SQL analysis
+
 - `powerbi/` → dashboard file
 - `reports/` → final report
 
