@@ -36,6 +36,23 @@ The business lacks visibility into key performance areas:
 
 ---
 
+📂 Dataset Information
+Source: UCI Machine Learning Repository
+Dataset Name: Online Retail Dataset
+Link: https://archive.ics.uci.edu/ml/datasets/online+retail
+📊 Dataset Description
+
+The dataset contains transactional data for a UK-based online retail store:
+
+~500,000 transactions
+Time period: 2010–2011
+Features include:
+InvoiceNo, StockCode, Description
+Quantity, InvoiceDate
+UnitPrice, CustomerID, Country
+
+---
+
 ## 📊 Key Metrics
 
 * **Total Revenue:** 8.64M
