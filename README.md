@@ -48,6 +48,7 @@ The dataset contains transactional data for a UK-based online retail store:
 
 * ~500,000 transactions
 * Time period: 2010–2011
+  
 ***Features include***:
 * InvoiceNo, StockCode, Description
 * Quantity, InvoiceDate
