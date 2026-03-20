@@ -1,12 +1,12 @@
 # 🛒 Retail Sales & Customer Analytics
 
-## 📌 Project Overview
+## 📌 Overview
 
-This project analyzes retail transaction data to uncover **revenue drivers, customer behavior patterns, and business inefficiencies**. The goal is to transform raw sales data into **actionable insights** that can support strategic decision-making.
+This project analyses retail transaction data to uncover revenue drivers, customer behaviour patterns, and business inefficiencies. The goal is to transform raw sales data into actionable insights to support strategic decision-making.
 
 ---
 
-## 🚨 Business Problem
+## 🚨 Business Proble
 
 The business lacks visibility into key performance areas:
 
@@ -36,38 +36,13 @@ The business lacks visibility into key performance areas:
 
 ---
 
-## 📂 Project Structure
-
-```
-Retail-Sales-Analytics/
-│
-├── data/
-│   ├── cleaned_retail_data.csv
-│
-├── notebooks/
-│   ├── data_cleaning.ipynb
-│
-├── sql/
-│   ├── retail_analysis.sql
-│
-├── dashboard/
-│   ├── retail_dashboard.pbix
-│
-├── reports/
-│   ├── detailed_report.pdf
-│
-└── README.md
-```
-
----
-
 ## 📊 Key Metrics
 
 * **Total Revenue:** 8.64M
 * **Total Orders:** 19K
 * **Total Customers:** 4,337
 * **Average Order Value (AOV):** 167.37
-
+  
 ---
 
 ## 🔍 Key Insights
@@ -107,7 +82,7 @@ Retail-Sales-Analytics/
 * Customer segmentation (repeat vs one-time)
 * RFM (Recency, Frequency, Monetary) analysis
 * Customer lifetime value
-
+  
 ---
 
 ## 📊 Dashboard Features
@@ -115,7 +90,7 @@ Retail-Sales-Analytics/
 * KPI summary (Revenue, Orders, Customers)
 * Monthly revenue trend analysis
 * Top 5 products by quantity sold
-* Customer segmentation visualization
+* Customer segmentation visualisation
 * Revenue distribution by country
 * Customer-level revenue breakdown
 
@@ -137,19 +112,9 @@ Revenue is heavily dependent on a **small set of products and customers**, while
 
 ---
 
-## 🚀 Future Improvements
-
-* Customer churn prediction model
-* Purchase likelihood modeling
-* Recommendation system for upselling
-* Advanced cohort analysis
-
----
-
 ## 📷 Dashboard Preview
 
-*(Add your Power BI screenshot here)*
-
+![image alt](https://github.com/Atharvgupta1/retail-sales-customer-analytics/blob/00c3eb6670033d86c51dc99369124ce1cb1cd983/dashboard.png)
 ---
 
 ## 📎 How to Run This Project
