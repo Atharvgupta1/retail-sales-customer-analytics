@@ -73,7 +73,7 @@ Performed business-driven analysis using SQL:
 
 📸 **Dashboard Preview** 
 
-![image alt]https://github.com/Atharvgupta1/retail-sales-customer-analytics/blob/187a7fec3ddb098638a16ef2cd168e28ae48e7d8/dashboard.png.png
+![This is a image] (https://github.com/Atharvgupta1/retail-sales-customer-analytics/blob/main/dashboard.png.png)
 
 ---
 
