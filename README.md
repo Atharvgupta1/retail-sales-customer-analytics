@@ -71,8 +71,9 @@ Performed business-driven analysis using SQL:
 - Customer Segmentation (Repeat vs One-Time)  
 - Top Customers Contribution  
 
-📸 **Dashboard Preview**  
-![image alt]([dashboard.png](https://github.com/Atharvgupta1/retail-sales-customer-analytics/blob/5e41c1162c5197a4ebc54f7e9866856ee50728b1/dashboard.png.png))
+📸 **Dashboard Preview** 
+
+![image alt]https://github.com/Atharvgupta1/retail-sales-customer-analytics/blob/187a7fec3ddb098638a16ef2cd168e28ae48e7d8/dashboard.png.png
 
 ---
 
