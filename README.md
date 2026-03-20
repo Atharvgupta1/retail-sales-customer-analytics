@@ -50,9 +50,14 @@ The dataset contains transactional data for a UK-based online retail store:
 * Time period: 2010–2011
   
 ***Features include***:
-* InvoiceNo, StockCode, Description
-* Quantity, InvoiceDate
-* UnitPrice, CustomerID, Country
+ * InvoiceNo,
+ * StockCode,
+ * Description
+ * Quantity,
+ * InvoiceDate
+ * UnitPrice,
+ * CustomerID,
+ * Country
 
 ---
 
