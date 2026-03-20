@@ -36,11 +36,13 @@ The business lacks visibility into key performance areas:
 
 ---
 
-📂 Dataset Information
+## 📂 Dataset Information
+
 Source: UCI Machine Learning Repository
 Dataset Name: Online Retail Dataset
 Link: https://archive.ics.uci.edu/ml/datasets/online+retail
-📊 Dataset Description
+
+## 📊 Dataset Description
 
 The dataset contains transactional data for a UK-based online retail store:
 
