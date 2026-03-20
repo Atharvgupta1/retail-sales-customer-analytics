@@ -72,7 +72,7 @@ Performed business-driven analysis using SQL:
 - Top Customers Contribution  
 
 📸 **Dashboard Preview**  
-![Dashboard](images/dashboard.png)
+![Dashboard](dashboard.png)
 
 ---
 
