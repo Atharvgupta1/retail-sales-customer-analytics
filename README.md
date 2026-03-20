@@ -100,7 +100,3 @@ Performed business-driven analysis using SQL:
 ## 📈 Conclusion
 
 The analysis reveals that revenue is concentrated among a limited set of products and customers, with clear opportunities to improve customer retention and expand market reach. By focusing on high-value customers and optimising product strategies, the business can achieve sustainable growth.
-
----
-
-## 📁 Project Structure
