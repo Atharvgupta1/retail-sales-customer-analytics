@@ -72,7 +72,7 @@ Performed business-driven analysis using SQL:
 - Top Customers Contribution  
 
 📸 **Dashboard Preview**  
-![Dashboard](dashboard.png)
+![Dashboard]([dashboard.png](https://github.com/Atharvgupta1/retail-sales-customer-analytics/blob/5e41c1162c5197a4ebc54f7e9866856ee50728b1/dashboard.png.png))
 
 ---
 
