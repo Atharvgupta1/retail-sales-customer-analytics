@@ -117,37 +117,8 @@ Revenue is heavily dependent on a **small set of products and customers**, while
 ![image alt](https://github.com/Atharvgupta1/retail-sales-customer-analytics/blob/00c3eb6670033d86c51dc99369124ce1cb1cd983/dashboard.png)
 ---
 
-## 📎 How to Run This Project
-
-### 1. Data Cleaning
-
-Run the Python notebook:
-
-```
-notebooks/data_cleaning.ipynb
-```
-
-### 2. SQL Analysis
-
-Execute queries from:
-
-```
-sql/retail_analysis.sql
-```
-
-### 3. Dashboard
-
-
-```
-dashboard/retail_dashboard.pbix
-```
-
----
-
 ## 🧾 Conclusion
 
 This project demonstrates how raw transactional data can be transformed into **meaningful business insights**. By identifying revenue concentration, customer behaviour patterns, and market opportunities, the analysis provides a foundation for **data-driven decision making**.
-
----
 
 ---
