@@ -1,102 +1,188 @@
 # 🛒 Retail Sales & Customer Analytics
 
-## 📌 Overview
-This project presents an end-to-end data analytics workflow to analyse retail transaction data and uncover insights into sales performance, customer behaviour, and revenue trends.
+## 📌 Project Overview
 
-The analysis helps identify key business drivers and provides actionable recommendations for improving customer retention, product performance, and overall revenue growth.
+This project analyzes retail transaction data to uncover **revenue drivers, customer behavior patterns, and business inefficiencies**. The goal is to transform raw sales data into **actionable insights** that can support strategic decision-making.
+
+---
+
+## 🚨 Business Problem
+
+The business lacks visibility into key performance areas:
+
+* No clear understanding of **top-performing products**
+* Poor insight into **customer retention**
+* Limited awareness of **revenue trends and seasonality**
+* Decisions are made without **data-backed insights**
 
 ---
 
 ## 🎯 Objectives
-- Analyse overall revenue and sales trends
-- Identify top-performing products
-- Understand customer purchasing behaviour
-- Segment customers into repeat and one-time buyers
-- Evaluate geographic performance
-- Provide actionable business insights and recommendations
+
+* Analyze overall **revenue performance**
+* Identify **top-selling products**
+* Understand **customer purchasing behavior**
+* Segment customers (**repeat vs one-time**)
+* Evaluate **geographic performance**
+* Provide **actionable business recommendations**
 
 ---
 
-## 🛠 Tools & Technologies
-- **Python** (Pandas, NumPy) → Data cleaning & preprocessing  
-- **PostgreSQL** → Data storage & analysis  
-- **Power BI** → Data visualization & dashboard  
+## 🛠️ Tech Stack
+
+* **Python** → Data cleaning & preprocessing
+* **SQL (PostgreSQL)** → Data analysis & querying
+* **Power BI** → Dashboard & visualization
 
 ---
 
-## 📂 Dataset
-The dataset used in this project is the **Online Retail Dataset** from the UCI Machine Learning Repository.
+## 📂 Project Structure
 
-🔗 https://archive.ics.uci.edu/dataset/352/online+retail
-
-> Note: The dataset is not included in this repository due to file size limitations.
-
----
-
-## 🧹 Data Cleaning (Python)
-- Removed missing `CustomerID` values  
-- Filtered out negative and zero quantities (returns)  
-- Removed invalid pricing values  
-- Converted date columns to proper format  
-- Created `TotalPrice` column for revenue calculation  
-- Checked for duplicates and validated data quality  
-
----
-
-## 🗄 SQL Analysis (PostgreSQL)
-Performed business-driven analysis using SQL:
-- Total Revenue Calculation  
-- Revenue by Country  
-- Top Products by Sales & Revenue  
-- Top Customers by Revenue  
-- Monthly Revenue Trends  
-- Customer Segmentation (Repeat vs One-Time)  
-- RFM Analysis (Recency, Frequency, Monetary)  
-- Customer Lifetime Value (CLV)  
+```
+Retail-Sales-Analytics/
+│
+├── data/
+│   ├── cleaned_retail_data.csv
+│
+├── notebooks/
+│   ├── data_cleaning.ipynb
+│
+├── sql/
+│   ├── retail_analysis.sql
+│
+├── dashboard/
+│   ├── retail_dashboard.pbix
+│
+├── reports/
+│   ├── detailed_report.pdf
+│
+└── README.md
+```
 
 ---
 
-## 📊 Power BI Dashboard
+## 📊 Key Metrics
 
-### 🔹 Key Metrics
-- Total Revenue  
-- Total Orders  
-- Total Customers  
-- Average Order Value (AOV)  
-
-### 🔹 Visualizations
-- Monthly Revenue Trend  
-- Top Products by Quantity  
-- Revenue by Country  
-- Customer Segmentation (Repeat vs One-Time)  
-- Top Customers Contribution  
-
-## 📊 Dashboard Preview
-
-![Dashboard](dashboard.png)
+* **Total Revenue:** 8.64M
+* **Total Orders:** 19K
+* **Total Customers:** 4,337
+* **Average Order Value (AOV):** 167.37
 
 ---
 
 ## 🔍 Key Insights
 
-- Revenue is driven by a small number of products and customers  
-- Sales show noticeable fluctuations, indicating seasonality  
-- A large proportion of customers are one-time buyers  
-- Revenue is concentrated in a few geographic regions  
-- High-value customers contribute significantly to total revenue  
+### 📈 Revenue Insights
 
-----
+* Revenue shows **clear seasonal fluctuations**
+* Certain months contribute disproportionately → opportunity for **seasonal campaigns**
 
-## 💡 Business Recommendations
+### 📦 Product Insights
 
-- Improve customer retention through loyalty programs  
-- Focus on top-performing products for inventory optimisation  
-- Target high-value customers with personalised strategies  
-- Expand into underperforming geographic regions  
-- Leverage seasonal trends for marketing and promotions  
+* A small number of products drive the majority of sales (**Pareto principle**)
+* Product demand is highly **skewed**
+
+### 👥 Customer Insights
+
+* Majority of customers are **one-time buyers**
+* Indicates **low retention & high churn risk**
+
+### 💰 High-Value Customers
+
+* A small group contributes a large share of revenue
+* Business is heavily dependent on **high-value customers**
+
+### 🌍 Geographic Insights
+
+* Revenue is concentrated in a few countries
+* Untapped markets present **expansion opportunities**
 
 ---
 
-## 📈 Conclusion
+## 🧠 SQL Analysis Highlights
 
-The analysis reveals that revenue is concentrated among a limited set of products and customers, with clear opportunities to improve customer retention and expand market reach. By focusing on high-value customers and optimising product strategies, the business can achieve sustainable growth.
+* Revenue by country
+* Top products by quantity & revenue
+* Monthly revenue trends
+* Customer segmentation (repeat vs one-time)
+* RFM (Recency, Frequency, Monetary) analysis
+* Customer lifetime value
+
+---
+
+## 📊 Dashboard Features
+
+* KPI summary (Revenue, Orders, Customers)
+* Monthly revenue trend analysis
+* Top 5 products by quantity sold
+* Customer segmentation visualization
+* Revenue distribution by country
+* Customer-level revenue breakdown
+
+---
+
+## 💡 Business Recommendations
+
+* Implement **loyalty programs** to improve retention
+* Focus marketing on **high-performing products**
+* Target **high-value customers** with personalized offers
+* Expand into **underperforming regions**
+* Use seasonal trends for **campaign planning**
+
+---
+
+## ⚠️ Key Takeaway
+
+Revenue is heavily dependent on a **small set of products and customers**, while **customer retention remains weak**. Improving retention and diversifying revenue sources are critical for sustainable growth.
+
+---
+
+## 🚀 Future Improvements
+
+* Customer churn prediction model
+* Purchase likelihood modeling
+* Recommendation system for upselling
+* Advanced cohort analysis
+
+---
+
+## 📷 Dashboard Preview
+
+*(Add your Power BI screenshot here)*
+
+---
+
+## 📎 How to Run This Project
+
+### 1. Data Cleaning
+
+Run the Python notebook:
+
+```
+notebooks/data_cleaning.ipynb
+```
+
+### 2. SQL Analysis
+
+Execute queries from:
+
+```
+sql/retail_analysis.sql
+```
+
+### 3. Dashboard
+
+
+```
+dashboard/retail_dashboard.pbix
+```
+
+---
+
+## 🧾 Conclusion
+
+This project demonstrates how raw transactional data can be transformed into **meaningful business insights**. By identifying revenue concentration, customer behaviour patterns, and market opportunities, the analysis provides a foundation for **data-driven decision making**.
+
+---
+
+---
